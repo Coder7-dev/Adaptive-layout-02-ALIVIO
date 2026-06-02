@@ -39,7 +39,20 @@
 .how-it-works-steps {
     display: grid;
     grid-template-columns: repeat(auto-fit, 390px);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 95px;
+}
+
+@media (max-width: 1280px) {
+    .how-it-works-steps {
+        column-gap: 55px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .how-it-works-steps {
+        column-gap: 45px;
+    }
 }
 
 .step {
