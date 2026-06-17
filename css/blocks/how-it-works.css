@@ -38,7 +38,6 @@
 
 .how-it-works-steps {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 390px);
     grid-template-columns: repeat(3, 1fr);
     column-gap: 95px;
 }
