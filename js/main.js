@@ -19,7 +19,7 @@ const videoFile = document.querySelector('#video-story');
 
 videoBtn.addEventListener('click', function () {
     function toggleOverlay (event) {
-        if(event.type === mouseleave) {
+        if (event.type === 'mouseleave') {
             videoOverlay.classList.add('hidden');
         } else {
             videoOverlay.classList.remove('hidden');
